@@ -1,0 +1,56 @@
+@hcarest "utf-8";
+
+#entry dl{
+  background:#f1ede4;
+  border:1px solid #ddd;
+  border-top:0;
+}
+#entry dt,dd{
+  padding:10px;
+  border-top:1px solid #ddd;
+}
+#entry dt{
+  width:13em;
+  float:left;
+  clear:both;
+  font-weight:bold;
+}
+#entry dd{
+  background-color:white;
+  border-left:1px solid #ddd;
+  margin-left:13em;
+}
+.must{
+  color:#f00;
+}
+#entry #name{
+  width:15em;
+  padding:3px;
+}
+#entry #email{
+  width:25em;
+  padding:3px;
+}
+#entry #category2,#category3,#questionnaire2,#questionnaire3{
+  margin-left:15px;
+}
+#detail{
+  width:36em;
+  height:15em;
+}
+#submit-button-cover{
+  text-align:center;
+}
+#submit-button{
+  background-color:#b7a077;
+  border:1px solid #b7a077;
+  padding:15px 100px;
+  border-radius:10px;
+  font-size:18px;
+  color:#fff;
+  cursor:pointer;
+  transition:background-color 0.1s linear;
+}
+#submit-button:hover{
+  background-color:#c7ae81;
+}

@@ -1,0 +1,36 @@
+@hcarest "utf-8";
+
+#main-visual{
+  width:980px;
+  height:440px;
+  margin:0 auto 48px;
+}
+#point{
+  margin-bottom:30px;
+}
+#point section{
+  margin-bottom:10px;
+  overflow:hidden;
+}
+#point figure{
+  float:right;
+  margin:0 0 0 16px;
+}
+#point figcaption{
+  font-size:12px;
+  color:#9C9689;
+  text-align:center;
+}
+#news dl{
+  overflow:hidden;
+}
+#news dt{
+  width:8em;
+  float:left;
+  margin-bottom:10px;
+  clear:both;
+}
+#news dd{
+  margin-left:8em;
+  margin-bottom:10px;
+}
