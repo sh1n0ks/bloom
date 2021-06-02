@@ -1,9 +1,12 @@
 @hcarest "utf-8";
 
 #main-visual{
-  width:980px;
+  width:80%;
   height:440px;
   margin:0 auto 48px;
+}
+#main-visual img{
+  width:100%;
 }
 #point{
   margin-bottom:30px;
@@ -33,4 +36,7 @@
 #news dd{
   margin-left:8em;
   margin-bottom:10px;
+}
+@media (max-width:767px){
+
 }
