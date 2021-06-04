@@ -94,8 +94,6 @@ header h1{
 #global-navi a:hover{
   background-color:#8c7a5b;
 }
-
-
 .wrapper{
   width:80%;
   margin:0 auto;
@@ -164,8 +162,6 @@ address img{
   background:linear-gradient(to bottom, #b7a077 0%,#e2cda7 100%);
   color:#fff;
 }
-
-
 footer{
   background-color:#352b23;
   text-align:center;
@@ -195,8 +191,6 @@ footer small{
   padding:8px 0;
   color:white;
 }
-
-
 #breadcrumb{
   font-size:smaller;
 }
@@ -241,5 +235,33 @@ footer small{
     margin:0;
     box-sizing:border-box;
   }
-
+  #global-navi li:last-child{
+    width:100%;
+  }
+  .wrapper{
+    width:90%;
+  }
+  #main{
+    width:100%;
+  }
+  #sidebar img{
+    width:60%;
+  }
+  #side-banner{
+    text-align:center;
+    width:100%;
+  }
+  #side-contact{
+    width:100%;
+    border:none ;
+  }
+  #side-contact h2{
+    width:100%;
+    margin:0;
+    padding:7px;
+    display:block;
+  }
+  #side-contact img{
+    width:2vh;
+  }
 }
