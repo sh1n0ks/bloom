@@ -54,3 +54,23 @@
 #submit-button:hover{
   background-color:#c7ae81;
 }
+@media (max-width:800px){
+  #entry{
+    width:100%;
+  }
+  #entry dt{
+    float:none;
+  }
+  #entry dd{
+    margin:0;
+  }
+  #entry #name{
+    width:90%;
+  }
+  #entry #email{
+    width:90%;
+  }
+  #detail{
+    width:100%;
+  }
+}
